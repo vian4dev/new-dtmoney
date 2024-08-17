@@ -60,21 +60,21 @@ form {
 `;
 
 export const CloseButton = styled(Dialog.Close)`
-position: absolute;
-background: transparent;
-border: 0;
-top: 1.5rem;
-right: 1.5rem;
-line-height: 0;
-cursor: pointer;
-color: ${props => props.theme["gray-500"]};
+  position: absolute;
+  background: transparent;
+  border: 0;
+  top: 1.5rem;
+  right: 1.5rem;
+  line-height: 0;
+  cursor: pointer;
+  color: ${props => props.theme["gray-500"]};
 `;
 
 export const TransactionType = styled(RadioGroup.Root)`
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 1rem;
-margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 0.5rem;
 `;
 
 interface TransactionTypeButtonProps {
@@ -82,15 +82,15 @@ interface TransactionTypeButtonProps {
 }
 
 export const TransactionTypeButton = styled(RadioGroup.Item) <TransactionTypeButtonProps>`
-background: ${props => props.theme["gray-700"]};
-padding: 1rem;
-display: flex;
-align-items: center;
-gap: 0.5rem;
-border-radius: 6px;
-cursor: pointer;
-border: 0;
-color: ${props => props.theme["gray-300"]};
+  background: ${props => props.theme["gray-700"]};
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 0;
+  color: ${props => props.theme["gray-300"]};
 
 svg {
 color: ${props => props.variant === 'income' ? props.theme["green-300"] : props.theme["red-300"]};
