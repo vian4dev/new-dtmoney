@@ -24,7 +24,7 @@
 # New dt money
 
 ## ✒️ Descrição
-(Em breve)
+Confira a nova versão da aplicação [dt money](https://github.com/vian4dev/dtmoney), desenvolvida durante o módulo de formação em React da Rocketseat. Esta atualização apresenta novas funcionalidades e utiliza tecnologias mais modernas e alinhadas às tendências atuais do mercado.
 
 ## 🚀 Tecnologias utilizadas
 (Em breve)
@@ -40,15 +40,19 @@ git clone https://github.com/vian4dev/dtmoney.git
 ~~~
 Acesse o diretório do projeto.
 ~~~
-cd dtmoney/
+cd new-dtmoney/
 ~~~
 Instale as dependências.
 ~~~
-yarn
+pnpm install 
+~~~
+Execute o servidor JSON server.
+~~~
+pnpm run dev:server
 ~~~
 Execute a aplicação.
 ~~~
-yarn start
+pnpm run dev
 ~~~
 
 ## 📝 Licença
