@@ -34,7 +34,22 @@ Apresentação da tela do aplicativo.
 (Em breve)
 
 ## 🔥 Instalação
-(Em breve)
+Clone o repositório.
+~~~
+git clone https://github.com/vian4dev/dtmoney.git
+~~~
+Acesse o diretório do projeto.
+~~~
+cd dtmoney/
+~~~
+Instale as dependências.
+~~~
+yarn
+~~~
+Execute a aplicação.
+~~~
+yarn start
+~~~
 
 ## 📝 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
